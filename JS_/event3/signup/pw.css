@@ -1,0 +1,51 @@
+body{
+    margin: 0; padding: 0;
+    background-color: rgb(223, 196, 223);
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    flex-flow:column;
+    width: 40%; height: 60vh;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    position: absolute;
+    left: 50%; top: 50%;
+    transform: translate(-50%,-50%);
+
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.26);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.29);
+}
+
+input{
+    all:unset;
+    background-color: rgba(255, 240, 245, 0.705);
+    width: 300px; height: 50px;
+    border-radius: 20px;
+    border:2px solid snow;
+    padding: 5px;
+    color: slateblue;
+    font-size: 1.5rem
+}
+
+#pw-button{
+    width: 50px; height: 50px;
+    border-radius: 50%;
+    background-color: rgba(255, 240, 245, 0.705);
+    border: 2px solid snow;
+    cursor:pointer;
+}
+
+#pw-button:hover{
+    background-color: rgba(105, 90, 205, 0.658);
+}

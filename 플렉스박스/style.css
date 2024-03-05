@@ -1,0 +1,20 @@
+html, body{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    display: flex;
+    height: 70px;
+    border: 2px solid #606060;
+}
+
+.container .text{
+    border: 2px solid #606060;
+    margin: 5px;
+    max-width: 300px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}

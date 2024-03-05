@@ -1,0 +1,23 @@
+body{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    background-color: #0e1111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+body pre{
+    color:lemonchiffon;
+    font-size: 1.2rem;
+    position: absolute;
+    top: 50%; transform:translateY(-50%)
+}
+
+.letter{
+    position: absolute;
+    top: 0;
+    color:lemonchiffon;
+    transition: 50ms ease-in-out;
+}

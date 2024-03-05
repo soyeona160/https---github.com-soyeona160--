@@ -1,0 +1,86 @@
+html{
+    box-sizing: border-box;
+}
+
+body{
+    height: 150vh;
+    background-image: url(/imgs/새폴더/pink1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    padding: 0; margin: 0;
+}
+
+.modal-container{
+    width: 100%; height: 100vh;
+    background-color: rgba(0, 0, 0, 0.507);
+    backdrop-filter: blur(5px);
+    position: absolute;
+    transition: .7s;
+
+    display: none;
+}
+
+.modal{
+    width: 32%;
+    height: 60%;
+    background-color: rgba(255, 250, 250, 0.432);
+    border-radius: 40px;
+    border: 1px solid snow;
+    backdrop-filter: blur(5px);
+    padding: 10px;
+
+    display: flex;
+    flex-flow: column;
+    color: snow;
+    font-weight: bold;
+
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.modal header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 20px;
+    flex: 1;
+    font-size: 1.5rem;
+    border-bottom: 1px solid snow;
+}
+
+.modal main{
+    padding: 30px;
+    flex: 8;
+    border-bottom: 1px solid snow;
+    font-size: 1rem;
+    font-weight: normal;
+
+}
+.modal footer{
+    flex: 1;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    position: relative;
+    right: 10px;
+
+    gap: 10px;
+}
+
+.modal footer button{
+    all: unset;
+    width: 60px; height: 40px;
+    background-color: rgba(255, 250, 250, 0.226);
+    border: 1px solid snow;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.modal footer button:hover{
+    background-color: snow;
+    color:grey;
+}

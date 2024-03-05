@@ -1,0 +1,98 @@
+body{
+    margin: 0; padding: 0;
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(#654ea3,#eaafc8);
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.card{
+    max-width:400px;
+    border-radius: 25px;
+    box-shadow: 0px 14px 80px #421f2db6;
+    margin: 0 auto;
+    position: relative;
+}
+
+.card .avatar{
+    width: 70px; height: 70px;
+    position:absolute;
+    border: 6px solid white;
+    border-radius: 50%;
+    background-image: linear-gradient(#654ea3,#eaafc8);
+    top: 10px; left: 20%;
+}
+
+path{
+    fill: white
+}
+
+.card .card-contents{
+    border:1px solid #755eb4;
+    border-radius: 20px;
+    width:100%;
+}
+
+.card .card-contents .card-img,
+ .card .card-contents .text{
+    /* border: 1px solid #3d4b00; */
+    display: inline-block;
+    font-size: 3rem;
+    vertical-align: top;
+    display: table-cell;
+ }
+
+ .card .card-contents .card-img{
+    width: calc(400px * 1/3);
+    border-radius: 20px 0 0 20px;
+    background-image: url(../imgs/img.jpg) ;
+    position: bottom center;
+    background-size: cover;
+ }
+
+ .card .card-contents .text{
+    width: calc(400px * 2/3);
+    border-radius: 0 20px 20px 0;
+    padding: 2.5rem 1.5rem 1.5rem 1.5rem;
+    background: #fff;
+ }
+
+ .card .card-contents .text .title{
+    color:#eaafc8;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: right;
+    padding: 1rem;
+    position:relative;
+ }
+
+ .card .card-contents .text h2{
+    margin: 0; padding: 0 1rem;
+    font-size: 1.5rem;
+ }
+
+ .card .card-contents .description{
+    padding: .5rem 1rem;
+    font-size: 12px;
+ }
+
+ .card .card-contents .description .actions{
+    /* border: 1px solid salmon; */
+    font-size:0;
+    padding: .5rem 1rem;
+ }
+ .card .card-contents .description .actions button{
+    width: calc(100%/3);
+    border: none;
+    background: none;
+    color:#eaafc8;
+    cursor: pointer;
+    transition: .3s;
+
+ }
+
+ .card .card-contents .description .actions button:hover{
+    color: #654ea3;
+    transform: rotate(22deg);
+ }

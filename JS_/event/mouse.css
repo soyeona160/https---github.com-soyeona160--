@@ -1,0 +1,12 @@
+.up{
+    width: 100px; height: 100px;
+    background: url(/imgs/1up.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color:limegreen;
+}

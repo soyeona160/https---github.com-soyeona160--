@@ -1,0 +1,96 @@
+
+body{
+    margin: 0; padding: 0;
+    background-color: rgb(223, 196, 223);
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#upload-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px; height: 50px;
+
+    margin: 1%;
+    background-color: rgba(255, 255, 255, 0.527);
+    border: 1px solid snow;
+    border-radius: 20px;
+
+    text-align: center;
+    color: snow;
+    font-weight: bold;
+    font-size: 1rem;
+
+    cursor:pointer;
+    user-select: none;
+}
+#file{
+    display: none;
+}
+
+#container{
+    width: 90%; height: 85vh;
+    background-color: rgba(255, 250, 250, 0.548);
+    border: 1px solid snow;
+    padding: .5%;
+}   
+
+#img-container{
+    gap: .5%;
+    width: 100%; height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}   
+
+img{
+    height: 25%;
+    object-fit: cover;
+    height: 200px; 
+    overflow: hidden;
+    transition: .4s ;
+}
+
+img:nth-child(1){
+    width: 29%;
+}
+
+img:nth-child(2){
+    width: 40%;
+}
+
+img:nth-child(3){
+    width: 30%;
+}
+
+img:nth-child(4){
+    width: 20%;
+}
+img:nth-child(5){
+    width: 35%;
+}
+img:nth-child(6){
+    width: 44%;
+}
+
+img:nth-child(7){
+    width: 35%;
+}
+img:nth-child(8){
+    width: 39%;
+}
+img:nth-child(9){
+    width: 25%;
+}
+
+img:nth-child(10){
+    width: 40%;
+}
+img:nth-child(11){
+    width: 39%;
+}
+img:nth-child(12){
+    width: 20%;
+}

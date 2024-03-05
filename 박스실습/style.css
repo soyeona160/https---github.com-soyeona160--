@@ -1,0 +1,88 @@
+
+body{
+    margin:0; padding:0;
+    width:100%; max-width: 100%;
+    height: 100%; min-height: 100vh;
+    background-image: url(../imgs/집게리아.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.container{
+    box-sizing: border-box;
+    position: relative;
+    width: 35%; min-width: 550px;
+    margin: 0 auto; padding: 5% 0;
+    text-align: center;
+}
+
+.container .contents{
+    position: relative;
+    padding: 10% 10%;
+    background: rgba(255, 255, 255, 0.466);
+    border: 1px solid #fff;
+    border-radius: 80px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 20px rgba(7, 4, 39, 0.753);
+}
+
+.container .contents h1{
+    text-align: center;
+    margin:0;
+}
+
+.container .contents p{
+    margin: 2% 0;
+    font-size: 1.1rem;
+    text-align:justify;
+}
+
+button{
+    display: inline-block;
+    width: 30%; height: 50px;
+    min-width: 145px;
+    margin: 0 10px;
+    outline:none;
+    background-color: rgba(240, 248, 255, 0.233);
+    border: 2px solid dodgerblue;
+    border-radius: 25px;
+    font-size: 1rem;
+    color: dodgerblue;
+}
+
+button:hover{
+    background-color:dodgerblue;
+    color:azure;
+}
+.menu{
+    width: 70%;
+    min-width: 200px;
+    min-width: 500px;
+    margin: auto;
+    text-align: center;
+}
+.food{
+    display: inline-block;
+    box-sizing: border-box;
+    position: relative; 
+    width: 13%; max-width: 300px; min-width: 200px;
+    height: 180px;
+    margin:1%; padding: 2%;
+    background: dodgerblue;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(8, 66, 124, 0.918) ;
+    font-size: 1.5rem; color:aliceblue;
+}
+
+.food p{
+    margin: 0; padding: 0;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24;
+  font-size: 100px;
+}
