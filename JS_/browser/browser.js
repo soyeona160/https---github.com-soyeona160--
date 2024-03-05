@@ -7,6 +7,7 @@ const mathProblems = [//산수 문제 리스트 (데이터 모델링)
         examples:[7, 2, 6, -6],
         answer: 6
     },
+    
     {
         query: '9 * 4 = ?',
         examples:[37, 32, 36, -36],
